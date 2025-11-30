@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+        <script src="JV.js"></script>
+        <title>Manage Staff Members </title>
+        <link rel="stylesheet" href="style.css"><!-- to link with css-->
+
+ 
+   </head>
+
+<body>
+
+   <!-- Header -->
+  <header>
+    <div id=" logoC" class="logo"><a href="index.html"  ><img src="images/logo/Lenzah logo.svg" alt="logo"  ></a></div>
+    <nav class="navBar">
+      <ul class="navLinks" id="navLinks" >
+      <li><a href="ServicesPage.html">Services</a></li>
+      <li><a href="About-Us.html">About us</a></li>
+      <li><a href="CustomerDashboard.html">Customer dashboard</a></li>
+      <li><a href="Provider's_Dashboard.html">Provider dashboard</a></li>
+    </ul>
+  </nav>
+   <a href="mailto:someone@example.com" class="contact-icon">Contact us</a>
+  </header>
+
+       <nav>
+
+    <ul class="breadcrumb">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="Provider's_Dashboard.html">Provider's Dashboard</a></li>
+  <li><a href="Manage_Staff_Mamber.html">Manage Staff Members</a></li>
+</ul>
+
+  </nav>
+
+    <h1>Manage Staff Members</h1>
+
+
+<div class="pp">
+
+
+  <form class="first" action="Manage_Staff_Mamber.html" method="post" enctype="multipart/form-data">
+    <div class="grid">
+      <div class="member">
+        <label>
+          <input type="checkbox" name="staff" value="1">
+          <img src="images/staff/n6.jpg" alt="Staff 1">
+          <span>farah suliman</span>
+        </label>
+      </div>
+
+      <div class="member">
+        <label>
+          <input type="checkbox" name="staff" value="2">
+          <img src="images/staff/newwomen.jpg" alt="Staff 2">
+          <span>lama abdullah</span>
+        </label>
+      </div>
+
+      <div class="member">
+        <label>
+          <input type="checkbox" name="staff" value="3">
+          <img src="images/staff/n1.jpg" alt="Staff 3">
+          <span>sara ahmad</span>
+        </label>
+      </div>
+
+      <div class="member">
+        <label>
+          <input type="checkbox" name="staff" value="4">
+          <img src="images/staff/راشد.png" alt="Staff 4">
+          <span>mohammed nasser</span>
+        </label>
+      </div>
+
+      <div class="member">
+        <label>
+          <input type="checkbox" name="staff" value="5">
+          <img src="images/staff/n3.jpg" alt="Staff 5">
+          <span>najd saleem</span>
+        </label>
+      </div>
+
+      <div class="member">
+        <label>
+          <input type="checkbox" name="staff" value="6">
+          <img src="images/staff/n4.jpg" alt="Staff 6">
+          <span>joud faisal</span>
+        </label>
+      </div>
+
+      <div class="member">
+        <label>
+          <input type="checkbox" name="staff" value="7">
+          <img src="images/staff/saud.png" alt="Staff 7">
+          <span>saud ahmad</span>
+        </label>
+      </div>
+
+      <div class="member">
+        <label>
+          <input type="checkbox" name="staff" value="8">
+          <img src= "images/staff/women2.jpeg" alt="Staff 8">
+          <span>joud kareem</span>
+        </label>
+      </div>
+    </div>
+
+    <button type="button" class="delete-btn" onclick="deleteStaff()">Delete</button>
+  </form>
+</div>
+
+
+
+<!-- form-->
+
+
+
+
+  <form class="second" action="Manage_Staff_Mamber.html"  method="post" enctype="multipart/form-data">
+    <h2>Add a new staff member</h2>
+  
+    <div class="row">
+      <div>
+        <label class="labelSecond">Name:</label>
+        <input class="formInput" type="text" id="WName">
+      </div>
+      <div>
+        <label class="labelSecond">Photo:</label>
+        <input class="formInput" type="file" id="WPhoto">
+      </div>
+    </div>
+  
+    <div class="row">
+      <div>
+        <label class="labelSecond">Date of birth:</label>
+        <input class="formInput" type="date" id="WDob">
+      </div>
+      <div>
+        <label class="labelSecond">Email:</label>
+        <input class="formInput" type="email" id="WEmail">
+      </div>
+    </div>
+  
+    <div class="row">
+      <div>
+        <label class="labelSecond">Area of expertise:</label>
+        <input class="formInput" type="text" id="WArea">
+      </div>
+      <div>
+        <label class="labelSecond">Skills:</label>
+        <input class="formInput" type="text" id="WSkills">
+      </div>
+    </div>
+  
+    <div class="row">
+      <div>
+        <label class="labelSecond">Education:</label>
+        <input class="formInput" type="text" id="WEdu">
+      </div>
+      
+    </div>
+  
+    <button class="add" type="button" onclick="addStaff()">Add</button>
+  </form>
+    
+  <!-- Footer -->
+  <footer>
+    <div class="footer-left">
+      <div class="logo">LENZAH</div>
+      <p>To capture the fleeting beauty of life’s moments — transforming emotions into timeless art that inspires, connects, and tells your story...</p>
+      <p>&copy; Copyright 2025</p>
+    </div>
+    <div class="footer-right">
+      <h4>Contact us</h4>
+      <p ><img src="images/icons/insta icon.png" alt="Instagram" >Lenzah (Instagram)</p>
+      <p ><img src="images/icons/email.png" alt="email"> Lenzah@website.com</p>
+      <p ><img src="images/icons/phone.png" alt="phone number" >+966000000000</p>
+    </div>
+  </footer>
+
+
+
+</body>
+</html>
